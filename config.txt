@@ -1,0 +1,33 @@
+#	CSV file download url 
+#i will include a copy of mine u may need to change the code to match the way yours is or try and match mine 
+https://docs.google.com/spreadsheets/d/e/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/pub?gid=xxxxxxxxxxxxxxxxxxxxx&single=true&output=csv
+
+#       WHERE IS YOUR GAME.ini
+#   GAMEini='/home/steam/pavlovserver/Pavlov/Saved/Config/LinuxServer/Game.ini'
+GAMEini="/home/steam/PAVLOV/CONFIG/PUSH.ini"
+
+#   NUMBER OF MAPS
+#   numMAPS=5 
+numMAPS=5 
+
+#GAME CONFIG
+
+bEnabled="true"
+ServerName="My_private_idaho"
+MaxPlayers=10   
+#Password=${Password} 
+bSecured="true"
+bCustomServer="true"
+bVerboseLogging="true"
+bCompetitive="false"
+bWhitelist="false"
+RefreshListTime="120"
+LimitedAmmoType="0"
+TickRate="90"
+TimeLimit="20"
+#BalanceTableURL="vankruptgames/BalancingTable/main"
+
+#       FOR MORE INFO
+#       http://wiki.pavlov-vr.com/index.php?title=Dedicated_server#Obtaining_an_ApiKey
+ApiKey="ABC123FALSEKEYDONTUSEME"
+
