@@ -27,7 +27,7 @@ TickRate="90"
 TimeLimit="20"
 #BalanceTableURL="vankruptgames/BalancingTable/main"
 
-#       FOR MORE INFO
+#       API KEY FOR MORE INFO
 #       http://wiki.pavlov-vr.com/index.php?title=Dedicated_server#Obtaining_an_ApiKey
 ApiKey="ABC123FALSEKEYDONTUSEME"
 
