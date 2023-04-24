@@ -16,4 +16,4 @@ also u need to build the case's in mapset.sh <hr>
         ;;
 
 <hr>
-u need to set where COBRA is to match the name in your CSV then u need the UGC for the map and mode 
+u need to set where COBRA is to match the name in your CSV then u need the UGC for the map and mode this will need to be done for each map u want to be an option 
