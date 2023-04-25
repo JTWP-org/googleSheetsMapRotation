@@ -1,6 +1,6 @@
 #	CSV file download url 
 #i will include a copy of mine u may need to change the code to match the way yours is or try and match mine 
-https://docs.google.com/spreadsheets/d/e/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/pub?gid=xxxxxxxxxxxxxxxxxxxxx&single=true&output=csv
+CSV="https://docs.google.com/spreadsheets/d/e/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/pub?gid=xxxxxxxxxxxxxxxxxxxxx&single=true&output=csv"
 
 #       WHERE IS YOUR GAME.ini
 GAMEini='/home/steam/pavlovserver/Pavlov/Saved/Config/LinuxServer/Game.ini'
