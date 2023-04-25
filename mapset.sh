@@ -1,7 +1,7 @@
 #!/bin/bash
 source ~/JTWP/mapselector/config.txt
 
-topMAPS=( $(wget --output-file="logs.csv" "https://docs.google.com/spreadsheets/d/e/2PACX-1vTizXvS_2t76H5lSz7rOuVH4Jn7m23T8G_xZC576FpkL1EsAE54SyYlcO9JUFToRaqgKq2mM1W5Wb2M/pub?gid=1625075868&single=true&output=csv" -O " downloaded_content.csv" ; cat ' downloaded_content.csv' | head -1 | awk -F"," '{print $2 " COBRA\n" $3 " Lafiere\n" $4 " Village\n" $5 " BrecourtManor\n" $6 " OMG\n" $7 " FOY\n" $8 " 1918\n" $9 " SteMere-Eglise\n" $10 " SteMarieduMont\n" $11 " OPERATIONABERDEEN\n" $12 " VillageTactical\n" $13 " RAID\n" $14 " DemyanskPocket\n" $15 " Tunisia\n" $16 " DOG\n" $17 " Carentan\n" $18 " SnowTrail"}' | sort -nr | head -${numMAPS} | awk '{print $2}' ; rm ~/JTWP/mapselector/logs.csv) )
+topMAPS=( $(wget --output-file="logs.csv" "${CSV}" ; cat ' downloaded_content.csv' | head -1 | awk -F"," '{print $2 " COBRA\n" $3 " Lafiere\n" $4 " Village\n" $5 " BrecourtManor\n" $6 " OMG\n" $7 " FOY\n" $8 " 1918\n" $9 " SteMere-Eglise\n" $10 " SteMarieduMont\n" $11 " OPERATIONABERDEEN\n" $12 " VillageTactical\n" $13 " RAID\n" $14 " DemyanskPocket\n" $15 " Tunisia\n" $16 " DOG\n" $17 " Carentan\n" $18 " SnowTrail"}' | sort -nr | head -${numMAPS} | awk '{print $2}' ; rm ~/JTWP/mapselector/logs.csv) )
 
 
 
