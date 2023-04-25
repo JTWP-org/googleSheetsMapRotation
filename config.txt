@@ -3,8 +3,8 @@
 https://docs.google.com/spreadsheets/d/e/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/pub?gid=xxxxxxxxxxxxxxxxxxxxx&single=true&output=csv
 
 #       WHERE IS YOUR GAME.ini
-#   GAMEini='/home/steam/pavlovserver/Pavlov/Saved/Config/LinuxServer/Game.ini'
-GAMEini="/home/steam/PAVLOV/CONFIG/PUSH.ini"
+GAMEini='/home/steam/pavlovserver/Pavlov/Saved/Config/LinuxServer/Game.ini'
+
 
 #   NUMBER OF MAPS
 #   numMAPS=5 
